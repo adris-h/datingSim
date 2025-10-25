@@ -1,0 +1,1284 @@
+{
+  "mc-1": {
+    "speaker": "You",
+    "text": "It’s the big day, my first time at a long term job. ",
+    "next": "mc-2",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-2": {
+    "speaker": "You",
+    "text": "I’m nervous, haven’t heard the greatest things about this company..",
+    "next": "mc-3",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-3": {
+    "speaker": "You",
+    "text": "Nah people on google reviews lie anyway.",
+    "next": "mc-4",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-4": {
+    "speaker": "You",
+    "text": "This place doesn’t look bad at all, cozy!",
+    "next": "mc-5",
+    "canChoose": false,
+    "background": 2,
+    "delay": 1000,
+    "sprite": "none"
+  },
+  "mc-5": {
+    "speaker": "You",
+    "text": "Not too many desks but Im sure all of my coworkers are hardworking and  nice people",
+    "next": "mila-1",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mila-1": {
+    "speaker": "Mila",
+    "text": "CHANG YOU FUCKING IDIOT",
+    "next": "chang-1",
+    "canChoose": false,
+    "background": 2,
+    "delay": 500,
+    "sprite": "mila",
+    "talking": true
+  },
+  "chang-1": {
+    "speaker": "Chang",
+    "text": "What? I can’t do anything about that, It’s not ev-",
+    "next": "mila-2",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mila-2": {
+    "speaker": "Mila",
+    "text": "OH MY GOD, just how useless can you be?",
+    "next": "chang-2",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila"
+  },
+  "chang-2": {
+    "speaker": "Chang",
+    "text": "I-Im sorry Mila, but I can’t do anything about it…",
+    "next": "mc-6",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-6": {
+    "speaker": "You",
+    "text": "What the hell…",
+    "next": "mc-7",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+    "mc-7": {
+        "speaker": "You",
+        "text": "I look over at the person next to them",
+        "next": "mc-8",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "none"
+    },
+    "mc-8": {
+        "speaker": "You",
+        "text": "The guy is balancing a pen on his nose",
+        "next": "adrian-1",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "none"
+    },
+    "adrian-1": {
+      "speaker": "Adrian",
+      "text": "  ",
+      "next": "balance",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "adrian",
+      "expression": "balance"
+    },
+  "balance": {
+    "speaker": "Adrian",
+    "text": "WAH",
+    "next": "mc-9",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none",
+    "shake": "true"
+  },
+    "mc-9": {
+        "speaker": "You",
+        "text": "Did he really just..fall?",
+        "next": "mc-10",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+    },
+    "mc-10": {
+        "speaker": "You",
+        "text": "In that moment I feel a hand gently touch your shoulders",
+        "next": "beatrice-1",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "none"
+    },
+    "beatrice-1": {
+      "speaker": "Beatrice",
+      "text": "Hey, you’re the new hire right?",
+      "next": "beatrice-2",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+    "beatrice-2": {
+      "speaker": "Beatrice",
+      "text": "Welcome to Finance Town! Don’t mind them by the way, they’re a nice group of people if you get to know them",
+      "next": "mc-11",
+      "canChoose": true,
+      "choices": [
+        {
+          "text": "I’m looking forward to working with you all, Ma’am!",
+          "next": "beatrice-2-c1"
+        },
+        {
+          "text": "I’m looking forward to working with you all, Beatrice!",
+          "next": "beatrice-2-c2"
+        }
+      ],
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+    "beatrice-2-c1": {
+      "speaker": "Beatrice",
+      "text": "Yup, let me tell you everyone's names.",
+      "next": "beatrice-3",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+    "beatrice-2-c2": {
+      "speaker": "Beatrice",
+      "text": "Heh.. around these parts, everyone calls me Ma’am.",
+      "next": "mc-c2",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice",
+      "expression": "yehaw"
+    },
+  "mc-c2": {
+        "speaker": "You",
+        "text": "Sorry Ma’am, I’ll do that from now.",
+        "next": "beatrice-2-c2-2",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0
+      },
+  "beatrice-2-c2-2": {
+        "speaker": "Beatrice",
+        "text": "Good, now let me tell you everyone's names.",
+        "next": "beatrice-3",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+    "sprite": "beatrice"
+  },
+    "beatrice-3": {
+      "speaker": "Beatrice",
+      "text": "I’m Beatrice, that angry one over there is Mila, the short asian boy is called Chang and the one who fell over is Adrian",
+      "next": "beatrice-4",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+  "beatrice-4": {
+      "speaker": "Beatrice",
+      "text": "What do you wanna be called?",
+      "next": "mc-11",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+    "sprite": "beatrice"
+    },
+  "mc-11": {
+      "speaker": "You",
+      "text": "",
+      "input": true,
+      "next": "beatrice-5",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0
+
+    },
+  "beatrice-5": {
+      "speaker": "Beatrice",
+      "text": "Okay, {name} it is then",
+      "next": "beatrice-6",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+  "beatrice-6": {
+      "speaker": "Beatrice",
+      "text": "EVERYONE pay attention, the new employee is here.",
+      "next": "mc-12",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+    },
+  "mc-12": {
+      "speaker": "You",
+      "text": "Hey guys, My name is {name} and I’ll be working with you from now on!",
+      "next": "adrian-2",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0
+    },
+    "adrian-2": {
+        "speaker": "Adrian",
+        "text": "Hey bro.",
+        "next": "mila-3",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "adrian"
+        },
+    "mila-3": {
+        "speaker": "Mila",
+        "text": "Another one?",
+        "next": "chang-3",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "mila"
+    },
+  "chang-3": {
+      "speaker": "Chang",
+      "text": "H-hello.",
+      "next": "mc-13",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+        "sprite": "chang"
+    },
+  "mc-13": {
+      "speaker": "You",
+      "text": "All of them greeted me in their own ways.",
+      "next": "beatrice-7",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "none",
+      "talking": false
+    },
+  "beatrice-7": {
+      "speaker": "Beatrice",
+      "text": "If you want to, go talk to your coworkers! I’ll take you to your desk and show you around whenever you’re ready.",
+      "canChoose": true,
+    "choices": [
+      {
+        "text": "Talk to Adrian",
+        "next": "mc-c-adrian",
+        "character": "adrian"
+      },
+      {
+        "text": "Talk to Mila",
+        "next": "mila-4",
+        "character": "mila"
+      },
+      {
+        "text": "Talk to Chang",
+        "next": "chang-4",
+        "character": "chang"
+      },
+      {
+        "text": "Continue with Beatrice",
+        "next": "beatrice-8",
+        "character": "beatrice"
+      }],
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice"
+      },
+  "mc-c-adrian": {
+      "speaker": "You",
+      "text": "l go talk to Adrian.",
+      "next": "adrian-3",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+    "sprite": "beatrice"
+  },
+  "adrian-3": {
+    "speaker": "Adrian",
+    "text": "Welcome to our office, we’re all friends here… sort of.",
+    "next": "adrian-4",
+    "canChoose": false,
+    "background": 1,
+    "delay": 1000,
+    "sprite": "adrian",
+    "talking": true
+  },
+  "adrian-4": {
+    "speaker": "Adrian",
+    "text": "Look, even if someone might look scary *cough cough* Mila don't be discouraged to talk to em!",
+    "next": "mc-c-adrian-end",
+    "canChoose": false,
+    "background": 1,
+    "sprite": "adrian"
+  },
+  "mc-c-adrian-end": {
+    "speaker": "You",
+    "text": "Thanks man",
+    "next": "beatrice-7",
+    "canChoose": false,
+    "background": 1,
+    "sprite": "adrian",
+    "expression": "grin"
+  },
+  "chang-4": {
+    "speaker": "You",
+    "text": "Let me see what Chang is up to.",
+    "next": "mc-c-chang-1",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "adrian"
+  },
+    "mc-c-chang-1": {
+        "speaker": "You",
+        "text": "Hey man whats up? why was Mila crashing out on you?",
+        "next": "chang-5",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "chang",
+        "talking": false
+    },
+  "chang-5": {
+    "speaker": "Chang",
+    "text": "Oh hey… it was nothing, she’s just like that sometimes",
+    "next": "chang-6",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-6": {
+    "speaker": "Chang",
+    "text": "Just-…",
+    "next": "chang-7",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-7": {
+    "speaker": "Chang",
+    "text": "…umm.. yeah.",
+    "next": "mc-c-chang-end",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-c-chang-end": {
+    "speaker": "You",
+    "text": "Oh alright, Il see you around then!",
+    "canChoose": false,
+    "next": "beatrice-7",
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "mila-4": {
+    "speaker": "You",
+    "text": "Il go see what she’s all about",
+    "next": "mc-c-mila-1",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none",
+    "talking": true
+  },
+    "mc-c-mila-1": {
+        "speaker": "You",
+        "text": "You’re Mila right?",
+        "next": "mila-5",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "mila",
+        "talking": false
+    },
+    "mila-5": {
+      "speaker": "Mila",
+      "text": "Im busy.",
+      "next": "mc-c-mila-2",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "mila",
+      "talking": true
+    },
+    "mc-c-mila-2": {
+      "speaker": "You",
+      "text": "before I have anything else to say…",
+      "next": "mila-7",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "mila",
+        "talking": false
+    },
+    "mila-7": {
+      "speaker": "Mila",
+      "text": "…wait actually..whatever, what do you want?",
+      "next": "mc-c-mila-3",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "mila"
+    },
+    "mc-c-mila-3": {
+      "speaker": "You",
+      "text": "Nothing, really… just going around talking to people",
+      "next": "mila-8",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "mila",
+      "talking": false
+    },
+  "mila-8": {
+    "speaker": "Mila",
+    "text": ".....",
+    "next": "mc-c-mila-8",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": false
+  },
+  "mc-c-mila-8": {
+    "speaker": "You",
+    "text": "She waves me off and so I decide to leave",
+    "next": "mc-c-mila-end",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": false
+  },
+  "mc-c-mila-end": {
+    "speaker": "You",
+    "text": "Uhm.. Il see you around then!",
+    "canChoose": false,
+    "next": "beatrice-7",
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": false
+  },
+  "beatrice-8": {
+    "speaker": "Beatrice",
+    "text": "You finished talking to others?",
+    "next": "mc-14",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "beatrice",
+    "talking": true
+  },
+  "mc-14": {
+    "speaker": "You",
+    "text": "Yep, I am ready to learn now!",
+    "next": "beatrice-9",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "beatrice",
+    "talking": false
+  },
+  "beatrice-9": {
+    "speaker": "Beatrice",
+    "text": "Heh, okay then let me show you your desk",
+    "next": "beatrice-10",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "beatrice",
+    "talking": true
+  },
+  "beatrice-10": {
+    "speaker": "Beatrice",
+    "text": "So here is where you will work everyday….. for the rest of your life",
+    "next": "mc-16",
+    "canChoose": false,
+    "background": 2,
+    "delay": 1000,
+    "sprite": "none",
+    "talking": true
+  },
+    "mc-16": {
+        "speaker": "You",
+        "text": "Uhh.. haha…?",
+        "next": "beatrice-11",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "beatrice",
+        "talking": false
+    },
+    "beatrice-11": {
+        "speaker": "Beatrice",
+        "text": "…Im just kidding haha!",
+        "next": "mc-17",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+      "sprite": "beatrice",
+      "talking": true
+    },
+  "mc-17": {
+      "speaker": "You",
+      "text": "After a while of Beatrice explaining what i should be doing today.",
+      "next": "beatrice-12",
+      "canChoose": false,
+      "background": 3,
+      "delay": 0,
+    "sprite": "none",
+    "talking": false
+    },
+  "beatrice-12": {
+      "speaker": "Beatrice",
+      "text": "And that’s it.",
+      "next": "beatrice-13",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+    "sprite": "beatrice",
+    "talking": true
+    },
+  "beatrice-13": {
+      "speaker": "Beatrice",
+      "text": "If you aren’t sure about something just come by my office, I’ll help you out.",
+      "next": "mc-18",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "beatrice",
+      "talking": true
+    },
+    "mc-18": {
+      "speaker": "You",
+      "text": "Yeah I’ll definitely come if i find any trouble!",
+      "next": "mc-19",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0
+    },
+    "mc-19": {
+        "speaker": "You",
+        "text": "Upon hearing that, she nodded and smiled as she walked off, going back to her office",
+        "next": "mc-20",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+        },
+  "mc-20": {
+      "speaker": "You",
+      "text": "Okay, Looks like a bunch of fun people… even if some of there are a little bit weird..",
+      "next": "mc-21",
+      "canChoose": false,
+      "background": 4,
+      "delay": 1000,
+      "sprite": "none"
+    },
+  "mc-21": {
+      "speaker": "You",
+      "text": "Im sure I’ll make lots of frie-",
+      "next": "adrian-5",
+      "canChoose": false,
+      "background": 4,
+      "delay": 0,
+      "sprite": "none"
+    },
+  "adrian-5": {
+      "speaker": "Adrian",
+      "text": "Friends huh?",
+      "next": "mc-22",
+      "canChoose": false,
+      "background": 4,
+      "delay": 0,
+      "sprite": "none"
+    },
+  "mc-22": {
+      "speaker": "You",
+      "text": "Slightly stunned I look to my right and see Adrian standing there with his little smirk.",
+      "next": "adrian-6",
+      "canChoose": false,
+      "background": 4,
+      "delay": 0,
+      "sprite": "none"
+    },
+  "adrian-6": {
+      "speaker": "Adrian",
+      "text": "You know, when I got here, I had no friends right?",
+      "next": "mc-23",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "adrian"
+    },
+  "mc-23": {
+      "speaker": "You",
+      "text": "…Uh huh.",
+      "next": "adrian-7",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "adrian",
+      "talking": false
+    },
+  "adrian-7": {
+      "speaker": "Adrian",
+      "text": "Yeah… but I realized I just needed to put myself out there right?",
+      "next": "adrian-8",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "adrian"
+    },
+  "adrian-8": {
+      "speaker": "Adrian",
+      "text": "Nowadays I’m known as the guy who… sort of runs it here",
+      "next": "mc-24",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "adrian"
+    },
+  "mc-24": {
+      "speaker": "You",
+      "text": "Out of the corner of my eye I notice Mila looking at us after she heard Adrian",
+      "next": "mc-25",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "mila",
+      "expression": "squinting",
+      "talking": false
+    },
+    "mc-25": {
+        "speaker": "You",
+        "text": "Doesn’t exactly look like she thinks that’s the case….",
+        "next": "mc-26",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+        },
+    "mc-26": {
+        "speaker": "You",
+        "text": "Yeah… I can see everyone here thinks that too..",
+        "next": "adrian-9",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+    },
+    "adrian-9": {
+        "speaker": "Adrian",
+        "text": "Exactly, you know ball bro",
+        "next": "adrian-10",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "adrian"
+        },
+    "adrian-10": {
+        "speaker": "Adrian",
+        "text": "Anyway man I’ve got matters to attend to, {name}, see you later bro",
+        "next": "mc-27",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "adrian"
+    },
+    "mc-27": {
+        "speaker": "You",
+        "text": "See you!",
+        "next": "mc-28",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+        },
+    "mc-28": {
+        "speaker": "You",
+        "text": "I watch as Adrian goes up to his computer, sits down and opens…",
+        "next": "mc-29",
+        "canChoose": false,
+        "background": 2,
+        "delay": 0,
+        "sprite": "none"
+    },
+  "mc-29": {
+      "speaker": "You",
+      "text": "Solitaire…",
+      "next": "end",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "none"
+    },
+  "mc-30": {
+      "speaker": "You",
+      "text": "*Sigh*",
+      "canChoose": false,
+      "background": 2,
+      "delay": 0,
+      "sprite": "none"
+    },
+  "end": {
+    "speaker": "none",
+    "text": "none",
+    "next": "mc-31",
+    "background": 5,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-31": {
+    "speaker": "You",
+    "text": "So.. as Beatrice told me earlier, my job is to talk to clients of our firm online.",
+    "next": "mc-32",
+    "canChoose": false,
+    "background": 4,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-32": {
+    "speaker": "You",
+    "text": "They usually ask for stuff such as if they should invest in stocks or other business ventures.",
+    "next": "mc-34",
+    "canChoose": false,
+    "background": 4,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-34": {
+    "speaker": "You",
+    "text": "As Im walking I notice Mila *talking* to one of the clients",
+    "next": "mc-35",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-35": {
+    "speaker": "Mila",
+    "text": "No… that wouldn’t work because of the next year’s assumed inflation",
+    "next": "mc-36",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": true
+  },
+  "mc-36": {
+    "speaker": "You",
+    "text": "I mean… could i get someone else’s opinion on this? I really think it should be fine",
+    "next": "mc-37",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-37": {
+    "speaker": "Mila",
+    "text": "…..",
+    "next": "mc-38",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila"
+  },
+  "mc-38": {
+    "speaker": "Mila",
+    "text": "ARE YOU FUCKING SERIOUS??",
+    "next": "mc-39",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": true
+  },
+  "mc-39": {
+    "speaker": "Mila",
+    "text": "CAN'T YOU LISTEN FOR ONE SINGULAR SECOND YOU ABSOLUTE-",
+    "next": "mc-40",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "mila",
+    "talking": true
+  },
+  "mc-40": {
+    "speaker": "Chang",
+    "text": "Aah *Bam*",
+    "next": "mc-41",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-41": {
+    "speaker": "You",
+    "text": "I bumped into something… or rather someone.",
+    "next": "mc-42",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-42": {
+    "speaker": "You",
+    "text": "I bumped into Chang because I was too entranced by Mila screaming at our oh so important clients",
+    "next": "mc-43",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-43": {
+    "speaker": "Chang",
+    "text": "Uoghh…",
+    "next": "mc-45",
+    "canChoose": false,
+    "background": 9,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-45": {
+    "speaker": "Chang",
+    "text": "I’m fine it’s just…",
+    "next": "mc-46",
+    "canChoose": false,
+    "background": 9,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-46": {
+    "speaker": "Chang",
+    "text": "I spilled a dri- …my matcha",
+    "next": "mc-47",
+    "canChoose": false,
+    "background": 9,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-47": {
+    "speaker": "You",
+    "text": "Uhmm…",
+    "canChoose": true,
+    "choices": [
+      {
+        "text": "Offer to buy him matcha",
+        "next": "mc-48-choice1"
+      },
+      {
+        "text": "Don't do anything",
+        "next": "mc-bump-end-1"
+      }
+    ],
+    "background": 2,
+    "delay": 0
+  },
+  "mc-48-choice1": {
+    "speaker": "You",
+    "text": "How about i buy you another one?",
+    "next": "mc-49",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "chang-8": {
+    "speaker": "Chang",
+    "text": "Erm… no thats fine…",
+    "next": "mc-49",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-49": {
+    "speaker": "You",
+    "text": "After a bit though, I see him opening his mouth again",
+    "next": "mc-50",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "chang-9": {
+    "speaker": "Chang",
+    "text": "Actually…I’d be glad.",
+    "next": "mc-50",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-50": {
+    "speaker": "You",
+    "text": "Yeah I got you then let’s go right now!",
+    "next": "mc-52",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "mc-51": {
+    "speaker": "You",
+    "text": "As i start heading towards the door though, I can see that he doesn’t move.",
+    "next": "mc-52",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "mc-52": {
+    "speaker": "You",
+    "text": "What’s up?",
+    "next": "chang-10",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "chang-10": {
+    "speaker": "Chang",
+    "text": "Um… Can we.. uhh order it online…",
+    "next": "chang-11",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang"
+
+  },
+  "chang-11": {
+    "speaker": "Chang",
+    "text": "I usually do it like that",
+    "next": "mc-53",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": true
+  },
+  "mc-53": {
+    "speaker": "You",
+    "text": "I can see he’s quite embarrassed or maybe more-so shy",
+    "next": "mc-54",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "mc-54": {
+    "speaker": "You",
+    "text": "It’s okay I’ll go with you Chang! It’ll be faster",
+    "next": "chang-12",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "chang-12": {
+    "speaker": "Chang",
+    "text": "O-okay..",
+    "next": "mc-matcha-1",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "chang",
+    "expression": "blush",
+    "talking": true
+  },
+  "mc-matcha-1": {
+    "speaker": "You",
+    "text": "So… what do you like in a matcha?",
+    "next": "chang-matcha-1",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang",
+    "talking": false
+  },
+  "chang-matcha-1": {
+    "speaker": "Chang",
+    "text": "Well, I like… strawberry matcha lattes",
+    "next": "chang-matcha-2",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-matcha-2": {
+    "speaker": "Chang",
+    "text": "Oh but I also really like this new flavor I found! It’s caramel mixed with matcha.",
+    "next": "mc-matcha-2",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-matcha-2": {
+    "speaker": "You",
+    "text": " ",
+    "canChoose": true,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang",
+    "choices": [{
+      "text": "Woah that sounds really delicious!",
+      "next": "chang-matcha-3"
+    },
+      {
+        "text": "Not my style but you definitely seem sweet enough for those flavors!",
+        "next": "chang-matcha-3"
+      }
+    ]
+  },
+  "chang-matcha-3": {
+    "speaker": "Chang",
+    "text": "Yeah and it is {name}",
+    "next": "mc-matcha-4",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-matcha-4": {
+    "speaker": "Chang",
+    "text": "Umm… thank you {name}",
+    "next": "mc-matcha-4",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-matcha-4": {
+    "speaker": "You",
+    "text": "I can see him blush a little harder than usual",
+    "next": "mc-matcha-5",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "chang",
+    "expression": "blush"
+  },
+  "mc-matcha-5": {
+    "speaker": "You",
+    "text": "",
+    "next": "mc-matcha-6",
+    "canChoose": false,
+    "background": 1,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-matcha-6": {
+    "speaker": "You",
+    "text": "H-hey… {name}?",
+    "next": "chang-matcha-5",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-matcha-5": {
+    "speaker": "Chang",
+    "text": "Yeah, what’s up?",
+    "next": "mc-matcha-7",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-matcha-7": {
+    "speaker": "Chang",
+    "text": "Could you order it for me… the matcha…",
+    "next": "chang-matcha-6",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-matcha-6": {
+    "speaker": "You",
+    "text": "I don’t mind, I’ll do it for you Chang!",
+    "next": "chang-matcha-7",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "chang-matcha-7": {
+    "speaker": "Chang",
+    "text": "Really?…Thank you.",
+    "next": "mc-matcha-8",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-matcha-8": {
+    "speaker": "Chang",
+    "text": "Could you get me the strawberry special then? I’ll wait outside.",
+    "next": "mc-matcha-9",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "chang"
+  },
+  "mc-matcha-9": {
+    "speaker": "You",
+    "text": "I nod and watch as he waddles outside of the store",
+    "next": "mc-matcha-10",
+    "canChoose": false,
+    "background": 6,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-matcha-10": {
+    "speaker": "You",
+    "text": "After a while I come out of the store and see Chang patiently waiting for me.",
+    "next": "chang-matcha-8",
+    "canChoose": false,
+    "background": 7,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "chang-matcha-8": {
+    "speaker": "You",
+    "text": "I got you what you wanted",
+    "next": "mc-matcha-11",
+    "canChoose": false,
+    "background": 8,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-matcha-11": {
+    "speaker": "Chang",
+    "text": "You’re really nice… thanks for getting me this…",
+    "next": "mc-matcha-12",
+    "canChoose": false,
+    "background": 8,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-matcha-12": {
+    "speaker": "Chang",
+    "text": "It looks really good… so if you want a sip… just ask",
+    "next": "mc-matcha-13",
+    "canChoose": false,
+    "background": 8,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-matcha-13": {
+    "speaker": "You",
+    "text": "I can see he tries to hide his blush, but it still shows no matter his futile attempt.",
+    "next": "chapter2-end",
+    "canChoose": false,
+    "background": 8,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-bump-end-1": {
+    "speaker": "You",
+    "text": "Uhmm…",
+    "next": "mc-bump-end-2",
+    "canChoose": false,
+    "background": 9,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-bump-end-2": {
+    "speaker": "You",
+    "text": "I’ll just step over him and skedaddle to Beatrice’s office.",
+    "next": "mc-bump-end-3",
+    "canChoose": false,
+    "background": 9,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-bump-end-3": {
+    "speaker": "You",
+    "text": "As I do my little jump over Chang, I see him get visibly sadder.",
+    "next": "mc-bump-end-4",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0,
+    "sprite": "none"
+  },
+  "mc-bump-end-4": {
+    "speaker": "You",
+    "text": "Maybe I am quite a bad person…",
+    "next": "chapter2-end",
+    "canChoose": false,
+    "background": 2,
+    "delay": 0
+  },
+  "chapter2-end": {
+    "speaker": "none",
+    "text": "none",
+    "next": "mc-31",
+    "background": 5,
+    "delay": 0,
+    "sprite": "none"
+  }
+}
+
+
